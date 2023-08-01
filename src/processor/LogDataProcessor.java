@@ -7,7 +7,7 @@ import classifier.LogDataClassifier;
 
 public class LogDataProcessor {
     public static void main(String[] args) {
-        String inputFile = "C:/Users/mohsingh18/Documents/log_data.csv";
+        String inputFile = "src/log_data.csv";
 
         try {
             BufferedReader reader = new BufferedReader(new FileReader(inputFile));
